@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var blurRadius: CGFloat = 20
+    var blurRadius: Float = 10
 
     func blur(image: UIImage, withRadius radius: Float) -> UIImage {
         let context = CIContext(options: nil)
@@ -54,7 +54,7 @@ class ViewController: UIViewController {
             let image = renderer.image { (context) in
                 textView.drawHierarchy(in: textView.bounds, afterScreenUpdates: true)
             }
-            blurView.image = blur(image: image, withRadius: 10 );
+            blurView.image = blur(image: image, withRadius: blurRadius );
             blurView.isHidden = false
         }
         
