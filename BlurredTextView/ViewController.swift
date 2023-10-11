@@ -42,7 +42,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var blurView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        textView.layer.borderWidth = 1
+//        textView.layer.borderWidth = 1
     }
 
     @IBAction func handleBlurSwitch(_ sender: UISwitch) {
