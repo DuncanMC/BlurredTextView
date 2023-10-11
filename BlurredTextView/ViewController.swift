@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var blurView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        textView.layer.borderWidth = 1
     }
 
     @IBAction func handleBlurSwitch(_ sender: UISwitch) {
@@ -52,7 +53,9 @@ class ViewController: UIViewController {
             
             let renderer = UIGraphicsImageRenderer(size: textView.bounds.size)
             let image = renderer.image { (context) in
-                textView.drawHierarchy(in: textView.bounds, afterScreenUpdates: true)
+                var bounds = textView.bounds
+                bounds.origin = CGPoint.zero
+                textView.drawHierarchy(in: bounds, afterScreenUpdates: true)
             }
             blurView.image = blur(image: image, withRadius: blurRadius );
             blurView.isHidden = false

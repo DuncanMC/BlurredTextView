@@ -14,10 +14,58 @@
             filePath = "BlurredTextView/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
             landmarkName = "handleBlurSwitch(_:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "307E3B32-57E7-4688-A6E2-28A14215C1BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BlurredTextView/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "handleBlurSwitch(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "307E3B32-57E7-4688-A6E2-28A14215C1BC - ab1fe8d1bbc3d8b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BlurredTextView.ViewController.handleBlurSwitch(__C.UISwitch) -&gt; ()"
+                  moduleName = "BlurredTextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duncan/Desktop/Development/BlurredTextView/BlurredTextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "1352">
+               </Location>
+               <Location
+                  uuid = "307E3B32-57E7-4688-A6E2-28A14215C1BC - 2b707fa3d4ec1441"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIGraphicsImageRendererContext) -&gt; () in BlurredTextView.ViewController.handleBlurSwitch(__C.UISwitch) -&gt; ()"
+                  moduleName = "BlurredTextView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/duncan/Desktop/Development/BlurredTextView/BlurredTextView/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
