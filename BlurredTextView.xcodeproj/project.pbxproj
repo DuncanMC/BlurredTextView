@@ -13,6 +13,7 @@
 		AE1B94FF2AD703CF00D077C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1B94FD2AD703CF00D077C3 /* Main.storyboard */; };
 		AE1B95012AD703D000D077C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE1B95002AD703D000D077C3 /* Assets.xcassets */; };
 		AE1B95042AD703D000D077C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE1B95022AD703D000D077C3 /* LaunchScreen.storyboard */; };
+		AE1B950C2AD722B600D077C3 /* BlurringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1B950B2AD722B600D077C3 /* BlurringView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AE1B95002AD703D000D077C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE1B95032AD703D000D077C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE1B95052AD703D000D077C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE1B950B2AD722B600D077C3 /* BlurringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurringView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AE1B94F72AD703CF00D077C3 /* AppDelegate.swift */,
 				AE1B94F92AD703CF00D077C3 /* SceneDelegate.swift */,
 				AE1B94FB2AD703CF00D077C3 /* ViewController.swift */,
+				AE1B950B2AD722B600D077C3 /* BlurringView.swift */,
 				AE1B94FD2AD703CF00D077C3 /* Main.storyboard */,
 				AE1B95002AD703D000D077C3 /* Assets.xcassets */,
 				AE1B95022AD703D000D077C3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE1B94FC2AD703CF00D077C3 /* ViewController.swift in Sources */,
+				AE1B950C2AD722B600D077C3 /* BlurringView.swift in Sources */,
 				AE1B94F82AD703CF00D077C3 /* AppDelegate.swift in Sources */,
 				AE1B94FA2AD703CF00D077C3 /* SceneDelegate.swift in Sources */,
 			);
